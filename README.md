@@ -4,7 +4,7 @@
 
 This project allows you to find the most active forks of a repository.
 
-[Find Active Fork](https://techgaun.github.io/active-forks/index.html)
+[Find Active Fork](https://saf.offsec.nl)
 
 ## As Bookmarklet
 
@@ -17,7 +17,7 @@ Any time you're on a Github repo you can click the bookmarklet
 and it'll bring up the Active Forks of that repo.
 
 ```javascript
-javascript:!function(){if(title=document.title,title)if(thing=title.split(/(GitHub\s-\s)*([^:]*)/)[2],thing){var t="https://techgaun.github.io/active-forks/index.html#"+thing;window.open(t)}else window.alert("Not%20a%20valid%20GitHub%20page")}();
+javascript:!function(){if(title=document.title,title)if(thing=title.split(/(GitHub\s-\s)*([^:]*)/)[2],thing){var t="https://saf.offsec.nl#"+thing;window.open(t)}else window.alert("Not%20a%20valid%20GitHub%20page")}();
 ```
 
 ![Screenshot](screenshot.png "Active Forks in Action")
