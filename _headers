@@ -1,0 +1,6 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Access-Control-Allow-Origin: saf.offsec.nl cloudflareinsights.com
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: frame-ancestors 'self' https://saf.offsec.nl; script-src 'self' https://saf.offsec.nl https://static.cloudflareinsights.com 'unsafe-inline'; connect-src https://saf.offsec.nl https://cloudflareinsights.com; worker-src 'self' blob:; bsaf-all-mixed-content; upgrade-insecure-requests;
